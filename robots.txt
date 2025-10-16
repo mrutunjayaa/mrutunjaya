@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrutunjaya.senapati.xyz/sitemap.xml
