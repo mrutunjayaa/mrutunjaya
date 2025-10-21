@@ -7,7 +7,7 @@ Explore my journey as a passionate bug bounty hunter and ethical hacker focused 
 
 ## 🔥 Who Am I?
 
-I'm **Mrutunjaya Senapati**, also known as **None_C**, an active security researcher on platforms like:
+I'm **Mrutunjaya Senapati**, also active security researcher on platforms like:
 
 - 🐞 [Bugcrowd](https://bugcrowd.com/None_C)
 - ✍️ [Medium Blog](https://medium.com/@mrutunjayasenapati0)
@@ -52,7 +52,7 @@ I actively post technical writeups, walkthroughs, and tools on:
 ---
 
 > “Hack the planet — but with purpose and permission.”  
-> — None_C
+> — Mrutunjaya Senapati
 
 ---
 
