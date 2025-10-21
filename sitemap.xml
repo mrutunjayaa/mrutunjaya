@@ -1,39 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://mrutunjaya.senapati.xyz/</loc>
+    <loc>https://mrutunjaya.senapati.xyz/index.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://mrutunjaya.senapati.xyz/About.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://mrutunjaya.senapati.xyz/Services.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mrutunjaya.senapati.xyz/Terms.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mrutunjaya.senapati.xyz/Tools.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://mrutunjaya.senapati.xyz/Privacy.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://mrutunjaya.senapati.xyz/DMCA.html</loc>
-    <priority>0.7</priority>
-  </url>
+
   <url>
     <loc>https://mrutunjaya.senapati.xyz/Blog.html</loc>
-    <priority>0.7</priority>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mrutunjaya.senapati.xyz/Contact.html</loc>
-    <priority>0.7</priority>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/DMCA.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/Privacy.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/Services.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/Terms.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/Tools.html</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/api-security-testing.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/cyber-security-services.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/network-penetration-testing.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/security-consultation.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/vapt-wapt.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mrutunjaya.senapati.xyz/vulnerability-assessment-remediation.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
