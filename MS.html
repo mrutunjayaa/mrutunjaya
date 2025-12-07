@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Full-page Clickjacking Visual Test</title>
+  <style>
+    /* Make page, body full height and remove margins */
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #111; /* visible background if iframe fails to load */
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #fff;
+    }
+
+    /* Fullscreen iframe */
+    iframe#testframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+    }
+
+    /* Small info bar so you know this is a test page */
+    .info {
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      z-index: 2;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+      user-select: none;
+    }
+
+    .info small { display:block; opacity:0.8; font-size:11px; }
+
+    /* Friendly fallback message when iframe doesn't load */
+    .fallback {
+      position: fixed;
+      inset: 0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .fallback p {
+      max-width:80%;
+      text-align:center;
+      color:#ccc;
+      font-size:18px;
+      background: rgba(0,0,0,0.45);
+      padding: 18px;
+      border-radius:10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace src value with the target you want to test -->
+  <iframe id="testframe" src="https://mere-business-site.lovable.app/" loading="eager" title="Clickjacking test frame"></iframe>
+
+  <div class="info" role="status" aria-live="polite">
+
+    <small></small>
+  </div>
+
+  <div class="fallback" aria-hidden="true">
+    <p></em></p>
+  </div>
+
+  <script>
+    // Resize iframe on zoom/resize to always cover viewport (defensive)
+    const frame = document.getElementById('testframe');
+    function fit() {
+      frame.style.width = window.innerWidth + 'px';
+      frame.style.height = window.innerHeight + 'px';
+    }
+    window.addEventListener('resize', fit, {passive:true});
+    window.addEventListener('orientationchange', fit, {passive:true});
+    fit();
+
+    // Helpful console hint
+    console.info("Clickjacking visual tester: iframe loaded with src=", frame.src);
+  </script>
+</body>
+</html>
